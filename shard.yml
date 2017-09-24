@@ -4,6 +4,8 @@ version: 0.1.0
 authors:
   - Tijn Schuurmans <tijn@tijnschuurmans.nl>
 
+description: A small library to read PLS files (for playlists)
+
 crystal: 0.23.1
 
 license: MIT
