@@ -1,4 +1,4 @@
 require "./pls/*"
 
-module Pls
+module PLS
 end

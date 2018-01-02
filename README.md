@@ -2,7 +2,7 @@
 
 A small library to parse [PLS playlists](https://en.wikipedia.org/wiki/PLS_(file_format))
 
-If you understand the (extremely simple) PLS file format, I expect you understand the interface this library provides.
+A PLS playlist is simply an INI file with a predefined set of keys.
 
 ## Installation
 
@@ -19,7 +19,7 @@ dependencies:
 ```crystal
 require "pls"
 
-playlist = Pls::Playlist.parse(File.read("name_of_file.pls"))
+playlist = PLS::Playlist.parse(File.read("name_of_file.pls"))
 playlist.entries.each do |entry|
   puts entry.file
 end
